@@ -5,7 +5,7 @@
 		rGuard:init(player) --initialize player with anti-cheat
 		
 		You can always change anti-cheat settings in Config\rSettings module
-		!! PARENTING !!: PARENT Config AND Listeners FOLDERS TO THE MAIN rGuard MODULE SCRIPT
+		!! PARENT Config AND Listeners FOLDERS TO THE MAIN rGuard MODULE SCRIPT
 ]]
 
 local rGuard = {}
