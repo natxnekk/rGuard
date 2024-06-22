@@ -1,9 +1,10 @@
+--!strict
 local rGuard = require(script.Parent.Parent)
 local rSettings = require(script.Parent.Parent.Config.rSettings)
 
 return function(player: Player, character: Model)
-	local humanoid: Humanoid = character:WaitForChild('Humanoid')
-	local humanoidRootPart: BasePart = character:WaitForChild('HumanoidRootPart')
+	local humanoid = character:WaitForChild('Humanoid') :: Humanoid
+	local humanoidRootPart = character:WaitForChild('HumanoidRootPart') :: BasePart
 	
 	local lastPositions: {Vector3} = {}
 	
